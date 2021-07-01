@@ -9,8 +9,10 @@ sqlalchemy = "*"
 mysqlclient = "*"
 uvicorn = "*"
 loguru = "==0.5.3"
+aiosqlite = "*"
 
 [dev-packages]
+yapf = "*"
 
 [requires]
 python_version = "3.9"

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+    
+    ],
+    "python.analysis.extraPaths": [],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "backend",
+            "database": "${workspaceFolder:Blob}/backend/test.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "python.formatting.provider": "yapf"
+}
